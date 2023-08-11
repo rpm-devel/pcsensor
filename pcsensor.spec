@@ -4,7 +4,7 @@ Version: 1.0.1
 Release: 1%{?dist}
 License: GPLv2
 Group: System Environment/Base
-URL: http://casjaysdev.com/
+URL: http://casjaysdev.pro/
 #BuildArch: %BuildArch
 
 Source0: pcsensor
@@ -15,7 +15,7 @@ Source1: 99-tempsensor.rules
 Requires: libusb
 
 %description
-This package contains yum configuration for the casjaysdev.com Linux Repository, as well as the public GPG keys used to sign packages.
+This package contains yum configuration for the casjaysdev.pro Linux Repository, as well as the public GPG keys used to sign packages.
 
 %prep
 %setup -c -T
@@ -38,6 +38,6 @@ This package contains yum configuration for the casjaysdev.com Linux Repository,
 %{_sysconfdir}/udev/rules.d/99-tempsensor.rules
 
 %changelog
-* Tue Dec 18 2018 CasjaysDev <rpm-admin@rpm-devel.casjaysdev.com> - 1.0.1
+* Tue Dec 18 2018 CasjaysDev <rpm-admin@rpm-devel.casjaysdev.pro> - 1.0.1
 - Intitial Build
 
