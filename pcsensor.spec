@@ -5,14 +5,11 @@ Release: 1%{?dist}
 License: GPLv2
 Group: System Environment/Base
 URL: http://casjaysdev.pro/
-#BuildArch: %BuildArch
+BuildArch: %BuildArch
+BuildRequires: libusb-devel
 
 Source0: pcsensor
 Source1: 99-tempsensor.rules
-
-
-
-Requires: libusb
 
 %description
 This package contains yum configuration for the casjaysdev.pro Linux Repository, as well as the public GPG keys used to sign packages.
